@@ -49,6 +49,9 @@ hr{
 .wrapper{
   margin-right:auto;
 }
+a {
+  font-family:'courier new';
+}
 /*styling links with different colors*/
 a:link {color:lightpurple;}
 a:visited {color:pink;}
