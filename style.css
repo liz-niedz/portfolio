@@ -49,3 +49,7 @@ hr{
 .wrapper{
   margin-right:auto;
 }
+a: link {color:lightpurple;}
+a: visited {color:pink;}
+a:hover {color:lightgreen;}
+a: active { color: lightblue;}
