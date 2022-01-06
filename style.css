@@ -1,47 +1,32 @@
-/* created a class to align the text in the center of the page */
 .center-text {
   text-align:center;
 }
-/*created a dark background with light text*/
-.dark-background {
- background-color:#332E32;
-  color:#D8D4F2;
-  margin-top:0px;
-  margin-bottom:0px;
-  padding:0px;
-  border: 10px;
-}
-.light-background {
-  background-color:#D8D4F2;
-  color:#332E32;
+.header {
+  padding: 60px;
+  margin: -25px;
+  text-align: center;
+  background: cornflowerblue;
+  color: white;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.wrapper {
-  width:350px;
-  margin:auto;
-}
-/* changing how my name looks at the top of the page*/
-header div h1 {
-  font-family:'Courier New', Courier, monospace;
-  font-size:50px
-}
-/*changed the size of my photo*/
+
 img {
 width:300px;
-height:400px;
+padding: 60px;
+height:auto;
 }
-/*changed the link style to buttons*/
 .btn{
-  display: inline;
+  display: inline-block;
   font-family:'courier New';
   font-size:15px;
   text-align:center;
   margin:10px;
   padding:2px 20px;
-  color:#D8D4F2;
-  background-color:#2D3047;
+  color: white;
+  background-color:cornflowerblue;
 }
-/*lines that seperate the section*/
 hr{
   height:4px;
   background-color:#2D3047;
@@ -49,11 +34,9 @@ hr{
 .wrapper{
   margin-right:auto;
 }
-a {
-  font-family:'courier new';
+ol{
+list-style:none;
 }
-/*styling links with different colors*/
-a:link {color:lightpurple;}
-a:visited {color:pink;}
-a:hover {color:lightgreen;}
-a:active {color: lightblue;}
+ul{
+  list-style:none;
+  }
